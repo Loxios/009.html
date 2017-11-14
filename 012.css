@@ -1,9 +1,7 @@
-* {
-  background-image: url('bg.jpg');
+#bg {
   background-repeat: repeat-x;
 }
 
-banner {
-  image: url('banner.jpg');
+#banner {
   position: center;
 }
