@@ -1,0 +1,26 @@
+body {
+	color: #009;
+	text-align: center;
+	cursor: default;
+	font: 26px Segoe UI,sans-serif;
+}
+
+p.p_red {
+	color: #900;
+}
+
+#p_green {
+	color: #090;
+}
+
+#main {
+	color: #FF9900;
+}
+
+a:link {
+	color: #090;
+}
+
+a:visited {
+	color: #EED000;
+}
