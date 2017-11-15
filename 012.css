@@ -23,7 +23,8 @@ nav {
 
 #main {
   text-align: center;
+  border-style: solid;
   border-radius: 25px;
   border-width: medium;
-  background-color: #666;
+  background-color: #777;
 }
