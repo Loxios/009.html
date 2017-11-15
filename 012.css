@@ -22,6 +22,7 @@ nav {
 }
 
 #main {
-  border: : round 2px #000;
+  border-style: round 2px #000;
+  border-width: medium;
   background-color: #444;
 }
