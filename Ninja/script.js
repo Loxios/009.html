@@ -1,6 +1,14 @@
 $(function(){
+	var timer;
 	$(".btn").click(function(){
 		$("#container img").remove()
+		$("#titre").text("Rejouer au jeu des ninjas")
+
+		var chrono = 0
+		var timer = setInterval(function(){
+			chrono += 100
+			$("#timer span").text(chrono/1000);
+		},100)
 		for (var i = 0; i < 5; i++) {
 			var posX = Math.floor(Math.random()*90)
 			var posY = Math.floor(Math.random()*90)
@@ -17,6 +25,7 @@ $(function(){
 			}
 		if(score == 0) {
 				$("#titre").text("Félicitation, vous avez trouvé tous les ninjas !")
+				clearTimeout(timer)
 			}
 	})
 })
