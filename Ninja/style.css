@@ -1,0 +1,44 @@
+body{
+	background-color: #BCD;
+}
+
+.header #titre{
+	font-family: Arial;
+	font-size: 25px;
+}
+
+.btn{
+	background-color: #339;
+	padding: 10px 46px;
+	border-radius: 10px;
+	font-size: 20px;
+	font: bold;
+	text-decoration: none;
+	color: #000;
+	transition:all ease 0.3s;
+}
+
+.btn:hover{
+	color: #000;
+	font-size: 30px;
+	background-color: #azure;
+	padding: 10px 100px;
+	transition:all ease 0.3s;
+}
+
+.header{
+	text-align: center;
+}
+
+#container{
+	height: 550px;
+	background-color: #292;
+	border-radius: 50px;
+	position: relative;
+}
+
+#container img{
+	opacity: 0;
+	transform: scale(1.4, 1.4);
+	position: absolute;
+}
